@@ -15,7 +15,7 @@ livenessProbe:
   periodSeconds: 1000
 service:
   type: ClusterIP
-  servicePort: 80
+  servicePort: 8080
 hpa:
   enabled: false
   minReplicas: 2
